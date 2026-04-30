@@ -6,8 +6,7 @@
   html {
     font-family: 'Inter', system-ui, sans-serif;
     scroll-behavior: smooth;
-    /* মোবাইলে বাটনে ক্লিক করার সময় ডিফল্ট হাইলাইট কালার রিমুভ করার জন্য */
-    -webkit-tap-highlight-color: transparent; 
+    -webkit-tap-highlight-color: transparent;
   }
   body {
     @apply bg-light text-dark antialiased overflow-x-hidden;
@@ -15,17 +14,13 @@
 }
 
 @layer utilities {
-  /* Chrome, Safari এবং Opera এর জন্য স্ক্রলবার লুকানোর ক্লাস */
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
-  /* IE, Edge এবং Firefox এর জন্য স্ক্রলবার লুকানোর ক্লাস */
   .no-scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
-  
-  /* টেক্সট গ্রেডিয়েন্ট করার জন্য কাস্টম ক্লাস */
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-theme;
   }
