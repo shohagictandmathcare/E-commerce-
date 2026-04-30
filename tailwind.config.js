@@ -8,30 +8,30 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#3b82f6', // Blue 500
-          dark: '#1d4ed8',    // Blue 700
-          light: '#60a5fa',   // Blue 400
+          DEFAULT: '#3b82f6',
+          dark: '#1d4ed8',
+          light: '#60a5fa',
         },
         secondary: {
-          DEFAULT: '#a855f7', // Purple 500
-          dark: '#7e22ce',    // Purple 700
-          light: '#c084fc',   // Purple 400
+          DEFAULT: '#a855f7',
+          dark: '#7e22ce',
+          light: '#c084fc',
         },
         dark: {
-          DEFAULT: '#0f172a', // Slate 900
-          light: '#1e293b',   // Slate 800
+          DEFAULT: '#0f172a',
+          light: '#1e293b',
         },
         light: {
-          DEFAULT: '#f8fafc', // Slate 50
-          surface: '#ffffff', // White
+          DEFAULT: '#f8fafc',
+          surface: '#ffffff',
         }
       },
       backgroundImage: {
-        'gradient-theme': 'linear-gradient(to right, #3b82f6, #a855f7)', // Premium Blue to Purple Gradient
+        'gradient-theme': 'linear-gradient(to right, #3b82f6, #a855f7)',
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'], // Clean modern font
+        sans:['Inter', 'system-ui', 'sans-serif'],
       }
     },
   },
-  plugins: 
+  plugins:
